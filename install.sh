@@ -21,7 +21,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.oh-my-zsh/
 # edit .zshrc ( commend here, use copy .zshrc instead )
 # sed -i 's/^ZSH_THEME=.*/ZSH_THEME="fishy"/g' ~/.zshrc
 # sed -i 's/^plugins=.*/plugins=(\n\tgit\n\tapple\n\tbanana\n)/g' ~/.zshrc
-
 cp .zshrc ~/.zshrc
+
+# clean up
+rm -rf myZsh
 
 exec zsh
