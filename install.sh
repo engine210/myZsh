@@ -24,6 +24,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.oh-my-zsh/
 cp .zshrc ~/.zshrc
 
 # clean up
-rm -rf myZsh
+rm -rf ~/myZsh
 
 exec zsh
