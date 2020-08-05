@@ -8,7 +8,7 @@ if [ -f $HOME/.zshrc ]; then
 fi
 
 # install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" | zsh
 
 # clone the script
 rm -rf ~/myZsh
